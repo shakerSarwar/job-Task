@@ -42,15 +42,14 @@ const Signin = () => {
   return (
     <div>
       <Header />
-      <div>
-        <p className="text-center	pt-[126px] text-[#323B4B] text-[26px] font-bold leading-8">
+
+      <div className="	pt-[126px] m-auto w-[540px]">
+        <p className="text-center text-[#323B4B] text-[26px] font-bold leading-8">
           Sign In
         </p>
-        <p className="text-center text-[#8A94A6] text-[18px] font-medium leading-5 pt-3">
+        <p className="text-center text-[#8A94A6] text-[18px] font-medium leading-5 pt-3 pb-6">
           Welcome back, you’ve been missed!
         </p>
-      </div>
-      <div className="pt-5 m-auto w-[540px]">
         <div className="flex justify-between">
           <div className="flex bg-[#F0F5FA] w-[255px] justify-center rounded-2xl	h-[58px] items-center	">
             <img className="h-[25px] w-[25px]" src={googleLogo} alt="" />

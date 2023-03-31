@@ -61,7 +61,7 @@ const Dashboard = () => {
             <span className="pl-5 text-[#A7AFBC] font-medium">Sales</span>
           </div>
         </div>
-        <div class="pl-10 basis-3/4">
+        <div class="pl-10 pr-10 basis-3/4">
           <div className="flex justify-between items-center pt-[25px]">
             <div className=" relative ">
               <input

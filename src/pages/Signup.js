@@ -43,14 +43,14 @@ const Signup = () => {
   return (
     <div className="">
       <Header />
-      <p className="text-center	pt-[126px] text-[#323B4B] text-[26px] font-bold leading-8">
-        Getting Started
-      </p>
-      <p className="text-center text-[#8A94A6] text-[18px] font-medium leading-5 pt-3">
-        Create an account to continue!
-      </p>
 
-      <div className="pt-5 m-auto w-[540px]">
+      <div className="m-auto w-[540px] pt-[126px]">
+        <p className="text-center	 text-[#323B4B] text-[26px] font-bold leading-8">
+          Getting Started
+        </p>
+        <p className="text-center text-[#8A94A6] text-[18px] font-medium leading-5 pt-3 pb-7">
+          Create an account to continue!
+        </p>
         <div className="flex justify-between">
           <div className="flex bg-[#F0F5FA] w-[255px] justify-center rounded-2xl	h-[58px] items-center	">
             <img className="h-[25px] w-[25px]" src={googleLogo} alt="" />
