@@ -5,7 +5,7 @@ const Users = ({ users, loading }) => {
     return <p>Loading.....</p>;
   }
   return (
-    <table className="w-full text-center mt-10 mb-5 text-[#4E5D78] font-bold	h-[200px]">
+    <table className="w-full text-center mt-10 mb-5 text-[#4E5D78] font-bold	h-auto">
       <thead className="pb-3">
         <tr className="bg-[#FAFBFC] h-[44px] ">
           <th>#ID</th>
